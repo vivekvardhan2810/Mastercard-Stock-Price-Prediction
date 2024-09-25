@@ -86,3 +86,6 @@ Mastercard-Stock-Prediction/
 
 After running the script, you will see the actual and predicted stock prices plotted on the graph for each model (LSTM, SVM, KNN). Additionally, the RMSE (Root Mean Squared Error) for each model will be printed in the console.
 
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
