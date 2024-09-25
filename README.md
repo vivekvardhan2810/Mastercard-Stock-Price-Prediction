@@ -72,3 +72,17 @@ The script will:
 
 - Print the RMSE of each model.
 
+## Project Structure
+
+```
+Mastercard-Stock-Prediction/
+├── Mastercard_stock_history.csv   # Historical stock data
+├── stock_price_prediction.py      # Main Python script for stock prediction
+├── README.md                      # Project documentation
+└── requirements.txt               # List of required Python libraries
+```
+
+## Results
+
+After running the script, you will see the actual and predicted stock prices plotted on the graph for each model (LSTM, SVM, KNN). Additionally, the RMSE (Root Mean Squared Error) for each model will be printed in the console.
+
