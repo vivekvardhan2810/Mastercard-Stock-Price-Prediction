@@ -5,7 +5,9 @@
 This project focuses on predicting Mastercard's stock prices using three different machine learning models:
 
 - **Long Short-Term Memory (LSTM)**
+
 - **Support Vector Machines (SVM)**
+
 - **K-Nearest Neighbors (KNN)**
 
 Each model is trained and tested on historical stock data provided in the `Mastercard_stock_history.csv` dataset. The models' performance is compared based on Root Mean Squared Error (RMSE).
@@ -47,20 +49,26 @@ pip install numpy pandas matplotlib scikit-learn keras
 
 ## How to Run
 
-1. Clone the Repository:
+1. **Clone the Repository**:
 
-bash
-Copy code
+```
 git clone https://github.com/yourusername/Mastercard-Stock-Prediction.git
 cd Mastercard-Stock-Prediction
-Run the Prediction Script:
+```
 
-bash
-Copy code
+2. **Run the Prediction Script**:
+
+```
 python stock_price_prediction.py
+```
+
 The script will:
 
-Perform data preprocessing.
-Train the LSTM, SVM, and KNN models.
-Plot the actual vs predicted stock prices for each model.
-Print the RMSE of each model.
+- Perform data preprocessing.
+
+- Train the LSTM, SVM, and KNN models.
+
+- Plot the actual vs predicted stock prices for each model.
+
+- Print the RMSE of each model.
+
