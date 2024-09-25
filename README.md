@@ -1,4 +1,4 @@
-# Mastercard Stock Price Prediction using LSTM, SVM, and K-Nearest Neighbors (KNN)
+# Mastercard Stock Price Prediction using LSTM, SVM, and K-Nearest Neighbors (KNN) 
 
 ## Overview
 
